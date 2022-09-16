@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.image{
+    height: 100vh;
+    width: 100vw;
+    margin-right: 80px;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.absolute{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(29, 122, 34, 0.5);
+    position: absolute;
+    color: white;
+    top: 40%;
+}
+
+.absolute h1{
+    font-family: "Norse";
+}
+
+.absolute img{
+    width: 80px;
+}
+
+
+main{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.right{
+    padding: 30px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    column-gap:70px;
+}
+
+h1{
+    padding: 30px;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+
+.under{
+    margin-bottom: 60px;
+    padding-left: 30px;
+}
+
+input{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #E5E7EB;
+}
+
+input:focus{
+    border: 1px solid blue;
+}
+
+
+button{
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #596D48;
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #596D48;
+}
+
+.top{
+    padding: 35px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1) ;
+    margin-bottom: 50px;
+}
+
+.error-message{
+    color: red;
+    font-weight: 700;
+}
